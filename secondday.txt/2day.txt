@@ -1,0 +1,95 @@
+1. CSS Position
+	- static
+	- relative
+	- absolute
+	- fixed
+	- sticky
+2. CSS Display
+	- block
+	- inline
+	- inline-block
+
+====================================Things to Cover Today=================================
+1. Flex: Flex is similar to inline, block, and inline-block. It helps to display elements in modern way. In order to use a flex property we need a parent
+	element or container.
+<div>	
+<p></p>
+</div>
+
+Some of the properties in Flex:
+- display: flex;
+- justifyContent: center | space-around | space-between | flex-start | flex-end
+- align-item: center | space-around | space-between | flex-start | flex-end
+
+2. CSS Units
+3. Build our assignment1
+
+========Some of the Inline Tags===========
+Span, anchor, etc.
+
+
+=============CSS===================
+.container {
+  border: 2px solid red;
+  display: flex;
+  height: 40px;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+}
+.box {
+  width: 100%;
+  border: 2px solid red;
+  display: inline;
+}
+
+.box-1 {
+  width: 100px;
+  background-color: red;
+}
+.box-2 {
+  width: 100px;
+  background-color: green;
+}
+.box-3 {
+  width: 100px;
+  background-color: yellow;
+}
+.box-4 {
+  width: 100px;
+  position: absolute;
+  background-color: blue;
+  right: 0;
+  float: right;
+}
+.first-three {
+  border: 2px solid yellow;
+  width: 600px;
+  position: absolute;
+  top: 0;
+  left: 6;
+}
+===============html================
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&family=Shizuru&display=swap"> -->
+</head>
+<body>
+
+    <!-- --------Flex------------ -->
+    <div class="container">
+        <div class="first-three">
+        <div class="box box-1">Home</div>
+        <div class="box box-2">About</div>
+        <div class="box box-3">Contact</div>
+        </div>
+        <div class="box box-4">BrandName</div>
+
+    </div>
+</body>
+</html>

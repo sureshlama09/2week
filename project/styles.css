@@ -1,0 +1,104 @@
+.navbar{ 
+    /* border: 2px solid red; */
+    /* position: fixed; */
+    background-color: aqua;
+    height: 80px;
+    
+}
+.box{
+  display: inline-block;
+}
+.first-three {
+  /* border: 2px solid rgb(7, 7, 1); */
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  /* display: flex;
+  justify-content: space-between; */
+  float: right;
+}
+.box-4{
+  color: blueviolet;
+  font-size: 40px;
+  /* border: 2px solid red; */
+}
+.box-1{
+  /* border: 2px solid red; */
+  width: 100px;
+
+}
+.box-2{
+  /* border: 2px solid red; */
+  width: 100px;
+
+}
+.box-3{
+  /* border: 2px solid red; */
+  width: 100px;
+
+}
+/* main  */
+.main-bar{
+  /* border: 2px solid red; */
+  height: 90vh;
+  position: relative;
+  
+}
+.left-div{
+  /* border: 2px solid black; */
+  height: 300px;
+  width: 200px;
+  position: fixed;
+
+}
+.right-div{
+  /* border: 2px solid rgb(73, 54, 54); */
+  height: 400px;
+  width: 800px;
+  position: absolute;
+  top: 0px;
+  right: 80px;
+
+
+}
+li{
+  list-style: none;
+  background-color: aqua;
+  
+}
+.list{
+  height: 360px;
+  line-height: 50px;
+  font-size: 20px;
+  margin-left: -40px;
+ 
+}
+.heading{
+  font-size: 30px;
+}
+.internal-div{
+  /* border: 2px solid red; */
+  position: relative;
+  
+  
+}
+#first-paragraph{
+  /* border: 2px solid red; */
+  width: 350px;
+  height: 200px;
+  
+  
+
+}
+#second-paragraph{
+  /* border: 2px solid red; */
+  width: 350px;
+  height: 200px;
+  float: right;
+
+
+}
+.box-pa{
+  display: inline-block;
+  
+}
